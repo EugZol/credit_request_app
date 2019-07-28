@@ -1,0 +1,26 @@
+<ul class="credit-request">
+  <li>
+    <p>Возраст</p>
+    <p><%= @credit_request.age %></p>
+  </li>
+  <li>
+    <p>Пол</p>
+    <p><%= @credit_request.gender %></p>
+  </li>
+  <li>
+    <p>Зарплата</p>
+    <p><%= @credit_request.salary %></p>
+  </li>
+  <li>
+    <p>Есть кредитная история</p>
+    <p><%= @credit_request.history_available? %></p>
+  </li>
+  <li>
+    <p>Запрошенная сумма</p>
+    <p><%= @credit_request.score %></p>
+  </li>
+  <li>
+    <p>Одобрили</p>
+    <p><%= @credit_request.approved %></p>
+  </li>
+</ul>
